@@ -10,7 +10,7 @@ The project frees the labor of the securities, lowers the risk of infection thro
 
 In addition to monitoring the SR, our project could potentially be applied to much wider scenarios such as miscellaneous entrance systems and be enhanced by integrating physical access control modules, for instance, automated gates, buzzers etc..
 
-##Setup
+## Setup
 1. Clone the repository
 ```
 git clone https://github.com/Laylar-sleep/CityFace-Mask-Detection.git
@@ -20,7 +20,7 @@ git clone https://github.com/Laylar-sleep/CityFace-Mask-Detection.git
 pip install -r requirements.txt
 ```
 
-##Execute
+## Execute
 1. Go into the cloned project directory and run the following command:
 ```
 python train_mask_detector.py --dataset dataset
@@ -29,10 +29,11 @@ python train_mask_detector.py --dataset dataset
 ```
 python detect_mask_video.py 
 ```
-##Results
+## Results
 We can detect 4 kinds of mask wearing situations with around 98% accuracy: 
 1. with mask
 2. incorrectly wear (mouth & nose not covered)
 3. incorrectly wear (nose not covered)
 4. without mask
 
+![image](https://github.com/Laylar-sleep/CityFace-Mask-Detection/blob/4cf4ac0d919efcdf7b0e1b9c8aaae88769646d55/images/2021-01-31%20(7).png)
